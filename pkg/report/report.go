@@ -3,13 +3,13 @@ package report
 import (
 	"bufio"
 	"fmt"
+	"github.com/zkbupt/afrog/pkg/result"
 	"os"
 	"path"
 	"path/filepath"
 	"sync"
 	"time"
 
-	"github.com/zan8in/afrog/pkg/result"
 	fileutil "github.com/zan8in/pins/file"
 	timeutil "github.com/zan8in/pins/time"
 )

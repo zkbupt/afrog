@@ -2,16 +2,16 @@ package config
 
 import (
 	"fmt"
+	"github.com/zkbupt/afrog/pkg/log"
+	"github.com/zkbupt/afrog/pkg/output"
+	"github.com/zkbupt/afrog/pkg/poc"
+	"github.com/zkbupt/afrog/pkg/utils"
+	"github.com/zkbupt/afrog/pocs"
 	"os"
 	"runtime"
 	"strings"
 	"sync"
 
-	"github.com/zan8in/afrog/pkg/log"
-	"github.com/zan8in/afrog/pkg/output"
-	"github.com/zan8in/afrog/pkg/poc"
-	"github.com/zan8in/afrog/pkg/utils"
-	"github.com/zan8in/afrog/pocs"
 	"github.com/zan8in/goflags"
 	"github.com/zan8in/gologger"
 	fileutil "github.com/zan8in/pins/file"

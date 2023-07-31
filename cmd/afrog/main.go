@@ -2,6 +2,10 @@ package main
 
 import (
 	"fmt"
+	"github.com/zkbupt/afrog/pkg/config"
+	"github.com/zkbupt/afrog/pkg/result"
+	"github.com/zkbupt/afrog/pkg/runner"
+	"github.com/zkbupt/afrog/pkg/utils"
 	"os"
 	"strings"
 	"sync"
@@ -10,10 +14,6 @@ import (
 
 	_ "net/http/pprof"
 
-	"github.com/zan8in/afrog/pkg/config"
-	"github.com/zan8in/afrog/pkg/result"
-	"github.com/zan8in/afrog/pkg/runner"
-	"github.com/zan8in/afrog/pkg/utils"
 	"github.com/zan8in/gologger"
 )
 

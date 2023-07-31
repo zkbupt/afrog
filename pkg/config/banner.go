@@ -2,9 +2,9 @@ package config
 
 import (
 	"fmt"
+	"github.com/zkbupt/afrog/pkg/log"
+	"github.com/zkbupt/afrog/pkg/utils"
 
-	"github.com/zan8in/afrog/pkg/log"
-	"github.com/zan8in/afrog/pkg/utils"
 	"github.com/zan8in/gologger"
 )
 

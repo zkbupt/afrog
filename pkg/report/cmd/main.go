@@ -1,10 +1,9 @@
 package main
 
 import (
+	"github.com/zkbupt/afrog/pkg/report"
+	"github.com/zkbupt/afrog/pkg/result"
 	"log"
-
-	"github.com/zan8in/afrog/pkg/report"
-	"github.com/zan8in/afrog/pkg/result"
 )
 
 func main() {

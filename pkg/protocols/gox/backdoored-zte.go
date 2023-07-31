@@ -2,8 +2,8 @@ package gox
 
 import (
 	"fmt"
+	"github.com/zkbupt/afrog/pkg/protocols/netxclient"
 
-	"github.com/zan8in/afrog/pkg/protocols/netxclient"
 	"github.com/zan8in/pins/netx"
 
 	urlutil "github.com/zan8in/pins/url"

@@ -3,10 +3,10 @@ package netxclient
 import (
 	"encoding/hex"
 	"fmt"
+	"github.com/zkbupt/afrog/pkg/proto"
 	"strings"
 	"time"
 
-	"github.com/zan8in/afrog/pkg/proto"
 	"github.com/zan8in/pins/netx"
 )
 

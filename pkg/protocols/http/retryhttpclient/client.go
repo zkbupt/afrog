@@ -4,6 +4,9 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
+	"github.com/zkbupt/afrog/pkg/poc"
+	"github.com/zkbupt/afrog/pkg/proto"
+	"github.com/zkbupt/afrog/pkg/utils"
 	"io"
 	"io/ioutil"
 	"net/http"
@@ -13,9 +16,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zan8in/afrog/pkg/poc"
-	"github.com/zan8in/afrog/pkg/proto"
-	"github.com/zan8in/afrog/pkg/utils"
 	"github.com/zan8in/retryablehttp"
 	"golang.org/x/net/context"
 )

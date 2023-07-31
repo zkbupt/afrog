@@ -2,17 +2,17 @@ package runner
 
 import (
 	"fmt"
+	"github.com/panjf2000/ants/v2"
+	"github.com/zkbupt/afrog/pkg/config"
+	"github.com/zkbupt/afrog/pkg/log"
+	"github.com/zkbupt/afrog/pkg/poc"
+	"github.com/zkbupt/afrog/pkg/protocols/http/retryhttpclient"
+	"github.com/zkbupt/afrog/pkg/result"
 	"strconv"
 	"strings"
 	"sync"
 	"time"
 
-	"github.com/panjf2000/ants/v2"
-	"github.com/zan8in/afrog/pkg/config"
-	"github.com/zan8in/afrog/pkg/log"
-	"github.com/zan8in/afrog/pkg/poc"
-	"github.com/zan8in/afrog/pkg/protocols/http/retryhttpclient"
-	"github.com/zan8in/afrog/pkg/result"
 	"github.com/zan8in/gologger"
 )
 

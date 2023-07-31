@@ -2,9 +2,9 @@ package gox
 
 import (
 	"fmt"
+	"github.com/zkbupt/afrog/pkg/proto"
 	"reflect"
 
-	"github.com/zan8in/afrog/pkg/proto"
 	"github.com/zan8in/gologger"
 )
 

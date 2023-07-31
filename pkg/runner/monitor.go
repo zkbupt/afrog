@@ -2,11 +2,11 @@ package runner
 
 import (
 	"fmt"
+	"github.com/zkbupt/afrog/pkg/protocols/http/retryhttpclient"
+	"github.com/zkbupt/afrog/pkg/utils"
 	"time"
 
 	"github.com/remeh/sizedwaitgroup"
-	"github.com/zan8in/afrog/pkg/protocols/http/retryhttpclient"
-	"github.com/zan8in/afrog/pkg/utils"
 )
 
 func (r *Runner) monitorTargets() {

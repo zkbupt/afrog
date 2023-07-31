@@ -2,8 +2,7 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/zan8in/afrog"
+	"github.com/zkbupt/afrog"
 )
 
 func main() {

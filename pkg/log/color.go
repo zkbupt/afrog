@@ -1,10 +1,10 @@
 package log
 
 import (
+	"github.com/zkbupt/afrog/pkg/utils"
 	"strings"
 
 	"github.com/gookit/color"
-	"github.com/zan8in/afrog/pkg/utils"
 )
 
 type Color struct {

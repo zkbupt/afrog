@@ -2,6 +2,8 @@ package raw
 
 import (
 	"fmt"
+	"github.com/zkbupt/afrog/pkg/proto"
+	"github.com/zkbupt/afrog/pkg/protocols/http/retryhttpclient"
 	"io/ioutil"
 	"net/http"
 	"net/http/httputil"
@@ -9,8 +11,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zan8in/afrog/pkg/proto"
-	"github.com/zan8in/afrog/pkg/protocols/http/retryhttpclient"
 	"github.com/zan8in/rawhttp"
 )
 

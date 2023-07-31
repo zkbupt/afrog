@@ -2,6 +2,7 @@ package utils
 
 import (
 	"encoding/hex"
+	"github.com/zkbupt/afrog/pkg/proto"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -12,7 +13,6 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/zan8in/afrog/pkg/proto"
 	"golang.org/x/text/encoding/simplifiedchinese"
 	"golang.org/x/text/transform"
 )

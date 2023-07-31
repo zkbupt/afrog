@@ -3,17 +3,17 @@ package runner
 import (
 	"errors"
 	"fmt"
+	"github.com/zkbupt/afrog/pkg/catalog"
+	"github.com/zkbupt/afrog/pkg/config"
+	"github.com/zkbupt/afrog/pkg/poc"
+	"github.com/zkbupt/afrog/pkg/protocols/http/retryhttpclient"
+	"github.com/zkbupt/afrog/pkg/report"
+	"github.com/zkbupt/afrog/pkg/result"
+	"github.com/zkbupt/afrog/pkg/utils"
+	"github.com/zkbupt/afrog/pocs"
 	"strings"
 	"sync"
 
-	"github.com/zan8in/afrog/pkg/catalog"
-	"github.com/zan8in/afrog/pkg/config"
-	"github.com/zan8in/afrog/pkg/poc"
-	"github.com/zan8in/afrog/pkg/protocols/http/retryhttpclient"
-	"github.com/zan8in/afrog/pkg/report"
-	"github.com/zan8in/afrog/pkg/result"
-	"github.com/zan8in/afrog/pkg/utils"
-	"github.com/zan8in/afrog/pocs"
 	"github.com/zan8in/gologger"
 )
 

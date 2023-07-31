@@ -3,11 +3,10 @@ package pocs
 import (
 	"embed"
 	"fmt"
+	"github.com/zkbupt/afrog/pkg/poc"
+	"gopkg.in/yaml.v2"
 	"io/fs"
 	"strings"
-
-	"github.com/zan8in/afrog/pkg/poc"
-	"gopkg.in/yaml.v2"
 )
 
 //go:embed afrog-pocs/*

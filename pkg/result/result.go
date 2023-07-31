@@ -2,16 +2,15 @@ package result
 
 import (
 	"fmt"
+	"github.com/zkbupt/afrog/pkg/log"
+	"github.com/zkbupt/afrog/pkg/poc"
+	"github.com/zkbupt/afrog/pkg/proto"
+	"github.com/zkbupt/afrog/pkg/utils"
+	"gopkg.in/yaml.v2"
 	"html"
 	"net/url"
 	"strconv"
 	"strings"
-
-	"github.com/zan8in/afrog/pkg/log"
-	"github.com/zan8in/afrog/pkg/poc"
-	"github.com/zan8in/afrog/pkg/proto"
-	"github.com/zan8in/afrog/pkg/utils"
-	"gopkg.in/yaml.v2"
 )
 
 type Result struct {

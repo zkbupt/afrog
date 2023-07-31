@@ -3,15 +3,14 @@ package config
 import (
 	"errors"
 	"fmt"
+	"github.com/cavaliergopher/grab/v3"
+	"github.com/zan8in/gologger"
+	"github.com/zkbupt/afrog/pkg/poc"
+	"github.com/zkbupt/afrog/pkg/utils"
 	"io/ioutil"
 	"net/http"
 	"os"
 	"strings"
-
-	"github.com/cavaliergopher/grab/v3"
-	"github.com/zan8in/afrog/pkg/poc"
-	"github.com/zan8in/afrog/pkg/utils"
-	"github.com/zan8in/gologger"
 )
 
 type AfrogUpdate struct {

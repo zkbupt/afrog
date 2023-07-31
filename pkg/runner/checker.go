@@ -2,24 +2,23 @@ package runner
 
 import (
 	"fmt"
+	"github.com/zkbupt/afrog/pkg/config"
+	"github.com/zkbupt/afrog/pkg/poc"
+	"github.com/zkbupt/afrog/pkg/proto"
+	"github.com/zkbupt/afrog/pkg/protocols/gox"
+	"github.com/zkbupt/afrog/pkg/protocols/http/retryhttpclient"
+	"github.com/zkbupt/afrog/pkg/protocols/netxclient"
+	"github.com/zkbupt/afrog/pkg/protocols/raw"
+	"github.com/zkbupt/afrog/pkg/result"
+	"github.com/zkbupt/afrog/pkg/utils"
+	"gopkg.in/yaml.v2"
 	"net/http"
 	"net/url"
 	"strings"
 	"sync"
 	"time"
 
-	"github.com/zan8in/afrog/pkg/protocols/gox"
-	"github.com/zan8in/afrog/pkg/protocols/http/retryhttpclient"
-	"github.com/zan8in/afrog/pkg/protocols/netxclient"
-	"github.com/zan8in/afrog/pkg/protocols/raw"
-	"github.com/zan8in/afrog/pkg/result"
-
 	"github.com/google/cel-go/checker/decls"
-	"github.com/zan8in/afrog/pkg/config"
-	"github.com/zan8in/afrog/pkg/poc"
-	"github.com/zan8in/afrog/pkg/proto"
-	"github.com/zan8in/afrog/pkg/utils"
-	"gopkg.in/yaml.v2"
 )
 
 var MMutex = &sync.Mutex{}

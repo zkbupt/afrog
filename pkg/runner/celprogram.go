@@ -6,6 +6,10 @@ import (
 	"encoding/base64"
 	"encoding/hex"
 	"fmt"
+	"github.com/zkbupt/afrog/pkg/config"
+	"github.com/zkbupt/afrog/pkg/proto"
+	"github.com/zkbupt/afrog/pkg/protocols/http/retryhttpclient"
+	"github.com/zkbupt/afrog/pkg/utils"
 	"math/rand"
 	"net/url"
 	"strconv"
@@ -13,16 +17,11 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/zan8in/afrog/pkg/config"
-	"github.com/zan8in/afrog/pkg/protocols/http/retryhttpclient"
-
 	"github.com/dlclark/regexp2"
 	"github.com/google/cel-go/cel"
 	"github.com/google/cel-go/common/types"
 	"github.com/google/cel-go/common/types/ref"
 	"github.com/google/cel-go/interpreter/functions"
-	"github.com/zan8in/afrog/pkg/proto"
-	"github.com/zan8in/afrog/pkg/utils"
 )
 
 var (

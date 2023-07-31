@@ -2,13 +2,12 @@ package poc
 
 import (
 	"fmt"
+	"github.com/zkbupt/afrog/pkg/utils"
+	"gopkg.in/yaml.v2"
 	"io/ioutil"
 	"os"
 	"path/filepath"
 	"strings"
-
-	"github.com/zan8in/afrog/pkg/utils"
-	"gopkg.in/yaml.v2"
 )
 
 // https://docs.xray.cool/#/guide/poc/v2

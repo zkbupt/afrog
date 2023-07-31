@@ -1,12 +1,12 @@
 package config
 
 import (
+	"github.com/zkbupt/afrog/pkg/utils"
+	"gopkg.in/yaml.v2"
 	"os"
 	"path/filepath"
 
 	"github.com/pkg/errors"
-	"github.com/zan8in/afrog/pkg/utils"
-	"gopkg.in/yaml.v2"
 )
 
 // Config is a afrog-config.yaml catalog helper implementation
