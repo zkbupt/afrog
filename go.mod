@@ -1,4 +1,4 @@
-module github.com/zan8in/afrog
+module github.com/zkbupt/afrog
 
 go 1.20
 
